@@ -4,7 +4,7 @@ import pprint
 
 # Get image tag from the command line arguments or use a default value
 image_tag = sys.argv[1] if len(sys.argv) > 1 else "test1" 
-path = "./python-app/values.yaml"
+path = "./helmcharts/python-app/values.yaml"
 
 try:
     # Read the existing YAML file
