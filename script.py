@@ -3,7 +3,7 @@ import sys
 import pprint
 
 # Get image tag from the command line arguments or use a default value
-image_tag = sys.argv[0] if len(sys.argv) > 1 else "test1" 
+image_tag = sys.argv[1] if len(sys.argv) > 1 else "test1" 
 path = "./helmcharts/python-app/values.yaml"
 
 try:
