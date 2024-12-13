@@ -22,7 +22,7 @@ spec:
     spec:
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
-        - docker-login-secrets
+        {{- toYaml . | nindent 8 }}
       {{- end }}
       serviceAccountName: {{ include "python-application.serviceAccountName" . }}
       securityContext:
