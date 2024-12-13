@@ -8,7 +8,7 @@ image:
   repository: vishalpatil0105/my-flask-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "12306177600"
+  tag: "latest"
 
 imagePullSecrets: [{ name: docker-login }]
 nameOverride: ""
