@@ -8,7 +8,7 @@ fullnameOverride: ''
 image:
   pullPolicy: IfNotPresent
   repository: vishalpatil0105/my-flask-app
-  tag: '12307720832'
+  tag: '12314985475'
 imagePullSecrets:
 - name: docker-login
 ingress:
